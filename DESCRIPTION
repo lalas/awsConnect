@@ -1,0 +1,11 @@
+Package: awsConnect
+Title: Amazon Web Services tools
+Version: 0.1
+Date: 2014-07-22
+Author: Ahmed Nagi
+Maintainer: <ahmednagi@gmail.com>
+Description: awsConnect contains a set of functions for communicating with aws via the CLI.  We replicate the functionality of the methods defined at
+[e.g. http://docs.aws.amazon.com/cli/latest/userguide/cli-ec2-launch.html (provide direct web address on aws for the functions you replicate - I cant find the address you showed me on friday night.)]
+Depends:
+Import: RJSONIO
+License: MIT

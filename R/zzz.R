@@ -1,0 +1,4 @@
+.onAttach <- function(libname, pkgname) {
+  cat(" This package presumes the AWS CLI (command line interface) is installed on your machine and that AWS has been correctly added to the enviroment variable path.\n To add the bin directory of aws to the path, use the supplied function: add.aws.path\n. NOTE: The path environment variable might be different if you are using Rstudio.\n  Ensure that you set up the config file correctly, which is contained in your .aws folder (by default the .aws folder should be set up in your home directory).\n Specifically, in your config file, you must specify the aws_access_key_id; the aws_secret_access_key; and the default region - unless you specify these value by setting the enviroment variables")
+  Sys.setenv(AWS_DEFAULT_OUTPUT="text")
+}
