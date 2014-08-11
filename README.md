@@ -1,5 +1,5 @@
-rAWS
-====
+awsConnect
+===========
 
 Currently, this is a OS X and linux based package only; It isn't tested for windows. For the functions in this package to work correctly:
 
