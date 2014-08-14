@@ -7,3 +7,5 @@ Currently, this is a OS X and linux based package only; It isn't tested for wind
 * Ensure that you set up the config file correctly, which is contained in your `.aws` folder (by default the `.aws` folder should be set up at `~/.aws`).  Specifically, in your config file, you must specify the *aws_access_key_id*; the *aws_secret_access_key*; and optionally the default region - unless you specify these value by setting the enviroment variables. For more info, see AWS CLI github [readmepage](https://github.com/aws/aws-cli#other-configurable-variables)
 
 For installation of AWS CLI on windows, the reader should read the following blog post http://keithxm23.blogspot.ca/2013/10/how-to-set-up-aws-command-line.html
+
+* For a quick-start tutorial, see http://lalas.github.io/quantitativeThoughts/r/2014/08/02/AWS_Tutorial1.html
