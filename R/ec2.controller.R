@@ -253,7 +253,7 @@ get.spot.price <- function(instance.type = "cr1.8xlarge", region){
 #' describe.instances()
 describe.instances <- function(region){
   cmd <- paste0("aws ec2 describe-instances ",
-                "--query 'Reservations[*].Instances[*].[LaunchTime, InstanceId, State.Name, Placement.AvailabilityZone, RootDeviceType, RootDeviceName, KeyName, PublicDnsName]'")
+                "--query \"Reservations[*].Instances[*].[LaunchTime, InstanceId, State.Name, Placement.AvailabilityZone, RootDeviceType, RootDeviceName, KeyName, PublicDnsName]\"")
   if(!missing(region)) cmd <- paste(cmd, "--region", region)
 
   res <- system(cmd, intern = TRUE)
